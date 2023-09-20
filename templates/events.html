@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="../static/events.css"> <!-- Include your CSS file here -->
+</head>
+<body>
+    <!-- Header (you can include a header if needed) -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CelebrateHub</h1>
+            </div>
+            <center><h1>{{m}}</h1></center>
+            <ul class="nav-links">
+                <li><a href="chat.html">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="{{ url_for('logout')}}">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <h2>Types of Events</h2>
+        <!-- Event types and costs -->
+        <div class="event">
+            <h3><a href="{{ url_for('wedding') }}">Wedding</a></h3>
+            <p>Cost: $10,000</p>
+        </div>
+        <div class="event">
+            <h3><a href="{{ url_for('bdy') }}">Birthday Party</a></h3>
+            
+            <p>Cost: $2,500</p>
+        </div>
+        <div class="event">
+            
+            <h3><a href="{{ url_for('corporate') }}">Corporate Event</a></h3>
+            <p>Cost: $5,000</p>
+        </div>
+        <!-- Add more event types and costs as needed -->
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Event Gallery</h2>
+        <div class="gallery-images">
+            <!-- Add previous event photos here -->
+            <div class="gallery-image">
+                <img src="../static/images/we-are-working-on-project--event-planning-businesses--please-genearte-some-image (1).png" alt="Event 1">
+            </div>
+            <div class="gallery-image">
+                <img src="../static/images/we-are-working-on-project--event-planning-businesses--please-genearte-some-image.png" alt="Event 2">
+            </div>
+            <!-- Add more images as needed -->
+            <div class="gallery-image">
+                <img src="../static/images/we-are-working-on-project--event-planning-businesses--please-genearte-some-image.png" alt="Event 2">
+            </div>
+            <div class="gallery-image">
+                <img src="../static/images/we-are-working-on-project--event-planning-businesses--please-genearte-some-image.png" alt="Event 2">
+            </div>
+            <div class="gallery-image">
+                <img src="../static/images/we-are-working-on-project--event-planning-businesses--please-genearte-some-image.png" alt="Event 2">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (you can include a footer if needed) -->
+    <footer>
+        <p>&copy; 2023 Your Event Planners</p>
+    </footer>
+</body>
+</html>

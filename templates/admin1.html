@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Page</title>
+    <link rel="stylesheet" href="../static/admin1.css"> <!-- Include your CSS file here -->
+</head>
+<body>
+    <!-- Header (optional, you can include a header if needed) -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CelebrateHub Admin</h1>
+                
+            </div>
+        </nav>
+    </header>
+    <h2 style="text-align: center;color: red;">{{m}}</h2>
+    <!-- Admin Page Section -->
+    <section class="admin-page">
+        <div class="admin-container">
+            <h2>User Registration Data For <p>Birthday<p></h2>
+            <table>
+                <thead>
+                    <tr>
+                        
+                        <th>NAME</th>
+                        <th>Email</th>
+                        <th>phone</th>
+                        <th>Place</th>
+                        <th>Date</th>
+                        <th>measage</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example user data, replace with actual data -->
+                    {% for i in data %}
+                    <tr>
+                        {% for col in i %}
+                        <td>{{col}}</td>
+                        {% endfor %}
+                        
+                        <form method="POST" action="/remove/{{ b[1] }}">
+                        <td>
+                           
+                            <button class="delete-button" name="email">Delete</button>
+                        </td>
+                    
+                    </form>
+                    </tr>
+                    {% endfor %}
+                    <!-- Add more user data rows as needed -->
+                </tbody>
+            </table>
+
+            
+            <h2><p>Mariage<p></h2>
+            <table>
+                <thead>
+                    <tr>
+                        
+                        <th>NAME</th>
+                        <th>NAME</th>
+                        <th>Email</th>
+                        <th>phone</th>
+                        <th>Event date</th>
+                        <th>message</th>
+                        <th>k</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example user data, replace with actual data -->
+                    {% for i in wed %}
+                    <tr>
+                        {% for col in i %}
+                        <td>{{col}}</td>
+                        {% endfor %}
+                        
+                        <form method="POST" action="/removew/{{ d[2] }}">
+                        <td>
+                           
+                            <button class="delete-button" name="email">Delete</button>
+                        </td>
+                    
+                    </form>
+                    </tr>
+                    {% endfor %}
+                    <!-- Add more user data rows as needed -->
+                </tbody>
+            </table>
+        
+        </div>
+    </section>
+
+
+   
+    
+    <!-- Footer (optional, you can include a footer if needed) -->
+    <footer>
+        <p>&copy; 2023 Your Event Planners</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planning Home Page</title>
+    <link rel="stylesheet" href="../static/wedding.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CelebrateHub</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome To CelebrateHub Wedding Event</h2>
+        </div>
+    </section>
+
+   
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        
+        <form id="contact-form" action="/wedding" method="post">
+            <input type="text" placeholder="Bride Name 1" name="hname" required>
+            <input type="text" placeholder="Bride Name 2" name="wname" required>
+            <input type="email" placeholder="Your Email"  name="email" required>
+            <input type="tel" placeholder="Your Phone"  name="phone" required>
+            <input type="date" placeholder="Event Date" name="event_date"  required>
+            <textarea placeholder="Your Message"  name="message" required></textarea>
+            <label for="">Select Additional Event:</label>
+            <div class="checkbox_box">
+                <div class="checkbox">
+                  <input type="checkbox"  name="additional_events"  />
+                  <label for=""  name="" >Mehandi</label>
+                </div>
+                <div class="checkbox">
+                  <input type="checkbox"  name="additional_events"  />
+                  <label for="" >Arshina</label>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"  name="additional_events"  />
+                    <label for="">Dj Night</label>
+                  </div>
+              </div>
+              
+              
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Event Planners</p>
+    </footer>
+</body>
+</html>

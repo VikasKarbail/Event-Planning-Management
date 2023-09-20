@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <link rel="stylesheet" href="../static/admin.css"> <!-- Include your CSS file here -->
+</head> ]
+<body>
+    <!-- Header (optional, you can include a header if needed) -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CelebrateHub Admin</h1>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Admin Login Section -->
+    <section class="admin-login">
+        <div class="login-container">
+            <h1 style="color: #ff5722;">{{m}}</h1>
+            <h2>Admin Login</h2>
+            <form action="/adminlog" method="post" id="admin-login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer (optional, you can include a footer if needed) -->
+    <footer>
+        <p>&copy; 2023 Your Event Planners</p>
+    </footer>
+</body>
+</html>

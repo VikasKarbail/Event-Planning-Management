@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Planning Home Page</title>
+    <link rel="stylesheet" href="../static/chat.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>CelebrateHub</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="{{ url_for('login') }}">UserLogin</a></li>
+                <li><a href="{{ url_for('admin') }}">AdminLogin</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>{{mes}}</h1>
+            <h2>Welcome to CelebrateHub</h2>
+            <p>We create memorable moments for your special occasions.</p>
+            <a href="login.html" class="btn">Book Now</a>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <h2>Event Packages</h2>
+        <!-- Add your event packages here -->
+        <div class="package">
+            <h3>Package 1</h3>
+            <p>Description of Package 1...</p>
+            <span class="price">$999</span>
+        </div>
+        <div class="package">
+            <h3>Package 2</h3>
+            <p>Description of Package 2...</p>
+            <span class="price">$1499</span>
+        </div>
+        <!-- Add more packages as needed -->
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <!-- Add client testimonials here -->
+        <div class="testimonial">
+            <p>"We had an amazing experience with Your Event Planners. The event was flawless!"</p>
+            <span class="author">- John Doe</span>
+        </div>
+        <div class="testimonial">
+            <p>"Highly recommend! Their attention to detail is exceptional."</p>
+            <span class="author">- Jane Smith</span>
+        </div>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or ready to plan your event? Reach out to us!</p>
+        <!-- Add your contact form here -->
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="tel" placeholder="Your Phone" required>
+            <input type="date" placeholder="Event Date" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Your Event Planners</p>
+    </footer>
+</body>
+</html>

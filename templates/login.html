@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../static/login.css"> <!-- Include your CSS file here -->
+</head>
+<body>
+    <!-- Header (optional, you can include a header if needed) -->
+    <header>
+        <nav class=".logo">
+           <h1>CelebrateHub</h1>
+        </nav>
+    </header>
+    <div id="user_register_form">
+        <div id="Signin">
+            <center><h1>Signin</h1></center>
+            <form action="/Signin" method="post" id="register_form">
+            <label for="suhas" class="reg">Username:</label>
+            <input type="text"  id="email" placeholder="Enter your email id..." name="username">
+            <label for="suhas" class="reg">Password:</label>
+            <input type="password" value="" id="password" placeholder="Enter your password..." name="password">
+            <input type="submit" value="Submit" >
+            </form>
+            <center>Already have account?<a data-value="Signup" onclick="togleform(event);">Signup</a></center>
+        </div>
+        <div id="Signup">
+            <center><h1>Signup</h1></center>
+            <form action="/Signup" method="post" id="register_form">
+            <label for="suhas" class="reg">Username:</label>
+            <input type="text"  id="name" placeholder="Ente your name..." name="username">
+            <label for="suhas" class="reg">Email:</label>
+            <input type="email"  id="email" placeholder="Ente your email id..." name="email">
+            <label for="suhas" class="reg">Phone No:</label>
+            <input type="number" value="suhas" id="phone" placeholder="Ente your phone No..." name="phone">
+            <label for="suhas" class="reg">Password:</label>
+            <input type="password" value="" id="password" placeholder="Enter your password..." name="password">
+            <input type="submit" value="Submit">
+            </form>
+            <center>Don't ave account?<a data-value="Signin" onclick="togleform(event);">Signin</a></center>
+        </div>
+</div>
+
+    
+   
+    <footer>
+        <p>&copy; 2023 Your Event Planners</p>
+    </footer>
+    <script src="../static/script.js"></script>
+</body>
+</html>

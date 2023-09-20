@@ -1,0 +1,119 @@
+/* Reset default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font styles for the whole page */
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Events Section styles */
+.events {
+    background-color:white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.events h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.event {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: wheat;
+    display: inline-block;
+    width: 300px;
+}
+
+.event h3:hover {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+
+.event p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Gallery Section styles */
+/* Gallery Section styles */
+.gallery {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+    margin: 10px;
+    /* Set a fixed width and height for the gallery images */
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.gallery-image img {
+    max-width: 100%;
+    max-height: 100%;
+    /* Ensure that the image maintains its aspect ratio */
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

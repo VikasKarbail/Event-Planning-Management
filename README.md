@@ -1,4 +1,4 @@
-# event__management_sysytem
+<h1>Event management Sysytem</h1>
 
 Event Management System
 Welcome to the Event Management System repository! This project is built using Flask, HTML, and CSS, and it allows users to book events, update their data, and delete their bookings. Admins can log in and view the list of users who have booked events.

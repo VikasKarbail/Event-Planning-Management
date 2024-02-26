@@ -77,3 +77,32 @@ View Bookings: Access the admin dashboard to view a list of users who have booke
 
 Contributing
 Contributions are welcome! Please read the Contributing Guidelines for more information on how to contribute to this project.
+
+![1](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/fb6ca37a-c5a1-4d63-a924-f5533dd6a9c0)
+![2](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/a3deb53b-daed-48a7-a10e-824b5e5c17fa)
+![3](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/6fe78959-177c-426f-b782-0dd6f193cae9)
+
+
+
+![4](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/95d3e661-d33a-4565-b16e-df1a9fa6e8d6)
+
+![6](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/e52d7904-fdb0-4549-8ba5-747fc95b9bc1)
+![7](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/4fd2ad0e-4b48-46a7-b98c-6687810576c6)
+![8](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/284a4f06-6ab9-4563-944a-073d870fcec9)
+
+![9](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/2f842856-fef1-4cf6-9aea-02efdecb1fc9)
+![10](https://github.com/VikasKarbail/Event-Planning-Management/assets/117006055/8bb64adc-b72e-4e8f-ac31-48f27b587b7e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
